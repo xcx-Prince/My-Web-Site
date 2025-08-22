@@ -1,0 +1,44 @@
+body {
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: #800000; /* Dark maroon for body text */
+	text-align: center; /* Keeps paragraphs center-aligned */
+}
+h1 {
+	display: inline-block; /* Shrinks width to fit text */
+	background-color: lightblue; /* Background only around text */
+	font-size: 32pt;
+	font-size: 32pt;
+	color: red;
+	padding: 5px 10px; /* Space around the text */
+	margin 20 px auto; /* Centers around te h1 horizontally */
+	text-align: center: /* Centers text inside the h1 box */
+}
+h2 {
+	text-align: left; /* Keeps paragraphs left-aligned */
+	background-color #800000; /* Dark maroon for body text */
+	color: red;
+}
+p {
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt
+}
+p.shrt {
+	display: inline-block; /* Shrinks width to fit content */
+	background-color: lightyellow; /* Optional: highlight it */
+	width: 600px; /* Fixed width of container */
+	padding: 5px 10px; /* Optional spacing around text */
+	margin: 10px 0; /* Vertical spacing */
+	text-align: center;
+}
+.row {
+	display: flex; /* Enables horizontal layout */
+	gap: 20px; /* Optional space between paragraphs */
+}
+li {
+	text-align: left;
+}
+a {
+}
